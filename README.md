@@ -10,7 +10,6 @@
   <a href=https://discord.gg/dNBrdrGGMa target="_blank"><img src= https://img.shields.io/badge/Discord-white.svg?logo=discord height=22px></a>
   <a href=https://arxiv.org/pdf/2509.21245 target="_blank"><img src=https://img.shields.io/badge/Report-b5212f.svg?logo=arxiv height=22px></a>
   <a href=https://x.com/TencentHunyuan target="_blank"><img src=https://img.shields.io/badge/Hunyuan-black.svg?logo=x height=22px></a>
- <a href="#community-resources" target="_blank"><img src=https://img.shields.io/badge/Community-lavender.svg?logo=homeassistantcommunitystore height=22px></a>
 </div>
 
 [//]: # (  <a href=# target="_blank"><img src=https://img.shields.io/badge/Report-b5212f.svg?logo=arxiv height=22px></a>)
@@ -29,10 +28,10 @@ Hunyuan3D-Omni is a unified framework for the controllable generation of 3D asse
 </p>
 
 ### Multi-Modal Conditional Control
-- **Bounding Box Control**: Generate 3D models constrained by 3D bounding boxes
-- **Pose Control**: Create 3D human models with specific skeletal poses  
-- **Point Cloud Control**: Generate 3D models guided by input point clouds
-- **Voxel Control**: Create 3D models from voxel representations
+- **Bounding Box Control**: Generate 3D models constrained by 3D bounding boxes.
+- **Pose Control**: Create 3D human models with specific skeletal poses.
+- **Point Cloud Control**: Generate 3D models guided by input point clouds.
+- **Voxel Control**: Create 3D models from voxel representations.
 
 ## 🎁 Models Zoo
 
@@ -82,7 +81,7 @@ python3 inference.py --control_type point --flashvdm
 ## Acknowledgements
 
 We would like to thank the contributors to
-the [TripoSG](https://github.com/VAST-AI-Research/TripoSG), [Trellis](https://github.com/microsoft/TRELLIS),  [DINOv2](https://github.com/facebookresearch/dinov2), [Stable Diffusion](https://github.com/Stability-AI/stablediffusion), [FLUX](https://github.com/black-forest-labs/flux), [diffusers](https://github.com/huggingface/diffusers), [HuggingFace](https://huggingface.co), [CraftsMan3D](https://github.com/wyysf-98/CraftsMan3D), [Michelangelo](https://github.com/NeuralCarver/Michelangelo/tree/main), [Hunyuan-DiT](https://github.com/Tencent-Hunyuan/HunyuanDiT), [HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo), [HunyuanWorld-1.0](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0), and [HunyuanWorld-Voyager](https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager) repositories, for their open research and
+the [TripoSG](https://github.com/VAST-AI-Research/TripoSG), [CLAY](https://arxiv.org/abs/2406.13897), [Trellis](https://github.com/microsoft/TRELLIS),  [DINOv2](https://github.com/facebookresearch/dinov2), [Stable Diffusion](https://github.com/Stability-AI/stablediffusion), [FLUX](https://github.com/black-forest-labs/flux), [diffusers](https://github.com/huggingface/diffusers), [HuggingFace](https://huggingface.co), [CraftsMan3D](https://github.com/wyysf-98/CraftsMan3D), [Michelangelo](https://github.com/NeuralCarver/Michelangelo/tree/main), [Hunyuan-DiT](https://github.com/Tencent-Hunyuan/HunyuanDiT), [HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo), [HunyuanWorld-1.0](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0), [HunyuanWorld-Voyager](https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager), and [PoseMaster](https://arxiv.org/abs/2506.21076) works, for their open research and
 exploration.
 
 ## Citation
